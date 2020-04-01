@@ -1,0 +1,9 @@
+name: quantum101
+dependencies:
+- python=3.6
+- numpy
+- pip
+- ipykernel
+- pip:
+  - qsharp
+  - RISE
