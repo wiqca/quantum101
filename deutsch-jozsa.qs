@@ -1,7 +1,7 @@
 // Copyright (c) Sarah Kaiser. All rights reserved.
 // Licensed under the MIT License.
 
-namespace Build.DeutschJozsa {
+namespace Wiqca.DeutschJozsa {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Measurement;
