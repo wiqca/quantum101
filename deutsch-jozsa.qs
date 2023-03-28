@@ -34,10 +34,11 @@ namespace Wiqca.DeutschJozsa {
             H(target);
 
             oracle(control, target);                       
-
-            H(target);                                     
+            DumpMachine();
+            H(target);   
+            DumpMachine();                                  
             X(target);
-
+            DumpMachine();
             set result = MResetX(control);                 
         }
         return result == One;
